@@ -500,7 +500,10 @@
 
 
 
-
+    .bg-full-width.border-top.actividad.bg-color-actividad
+      .p-4.p-md-5
+        #Actividad                
+          <Actividad :cuestionario="cuestionario"/>
 
     .bg-full-width.border-top.color-primario
       .p-4.p-md-5
@@ -530,8 +533,185 @@
 </template>
 
 <script>
+import Actividad from '@/components/actividad/Actividad.vue'
 export default {
-  name: 'Tema2',
+  name: 'Tema3',
+  components: {
+    Actividad,
+  },
+  data() {
+    return {
+      cuestionario: {
+        tema: 'Neuropedagogía',
+        titulo: 'Ponte a prueba',
+        introduccion:
+          'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
+        barajarPreguntas: true,
+        preguntas: [
+          {
+            id: 1,
+            texto:
+              '¿Cuál es la principal función del lóbulo frontal en el aprendizaje?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Procesamiento de la información visual',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Regulación del movimiento involuntario',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto: 'Razonamiento, planificación y abstracción',
+                esCorrecta: true,
+              },
+              {
+                id: 'd',
+                texto: 'Identificación de sonidos y palabras',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 2,
+            texto:
+              '¿Qué área del cerebro está relacionada con la escritura y la coordinación motora fina?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Área de Exner',
+                esCorrecta: true,
+              },
+              {
+                id: 'b',
+                texto: 'Área de Wernicke',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto: 'Área de Broca',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Giro angular',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 3,
+            texto:
+              '¿Cuál de las siguientes es una alteración del lenguaje que afecta la capacidad de hablar y comprender?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Agnosia',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Afasia',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto: 'Ataxia',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Disfagia',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 4,
+            texto:
+              '¿Qué área cerebral permite asociar cada sonido con su correspondiente letra al escribir?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Lóbulo temporal',
+                esCorrecta: true,
+              },
+              {
+                id: 'b',
+                texto: 'Lóbulo occipital',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto: 'Lóbulo parietal',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Cerebelo',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 5,
+            texto:
+              '¿Cuál es la función del giro angular en el proceso de escritura?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Control de la motricidad fina de la mano',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto:
+                  'Conversión de fonemas en grafemas y procesamiento del lenguaje escrito',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto: 'Regulación del movimiento corporal general',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Coordinación de la visión con el entorno',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+        ],
+        mensaje_final_aprobado:
+          '¡Felicidades! Has superado la prueba con éxito.',
+        mensaje_final_reprobado:
+          'Te recomendamos repasar nuevamente la unidad para reforzar los conceptos clave antes de volver a intentarlo.',
+      },
+    }
+  },
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()
@@ -540,4 +720,7 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+.bg-color-actividad
+  background-color: #EBF1F5
+</style>
