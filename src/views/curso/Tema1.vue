@@ -111,7 +111,7 @@
     
     p.mb-4 Al finalizar el periodo de gestación, el cerebro humano alcanza una estructura completamente formada, compuesta por cerca de 100,000 millones de células. La sofisticación de este órgano permite el desarrollo de habilidades cognitivas, motoras y sensoriales, consolidando su papel como centro de control del organismo.
 
-    .row.justify-content-center.align-items-center.bg-color-5.px-4.mb-5.bordes
+    .row.justify-content-center.align-items-center.bg-color-5.p-4.py-lg-0.px-lg-4.mb-5.bordes
       .col-lg-12
         .row.justify-content-center.align-items-center
           .col-lg-8(data-aos="fade-left").mb-3.mb-lg-0
@@ -227,7 +227,7 @@
             figure
               img(src='@/assets/curso/tema1/18.png', alt='')
     
-    .row.justify-content-center.align-items-center.bg-color-1.px-4.mb-5
+    .row.justify-content-center.align-items-center.bg-color-1.p-4.py-lg-0.px-lg-4.mb-5
       .col-lg-12
         .row.justify-content-center.align-items-center
           .col-lg-8(data-aos="fade-left").mb-3.mb-lg-0.order-lg-2

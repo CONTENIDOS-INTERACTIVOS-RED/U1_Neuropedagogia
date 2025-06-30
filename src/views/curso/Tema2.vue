@@ -94,7 +94,7 @@
               h5.mb-2 Lóbulo temporal
               p.mb-0 Se enfoca en la percepción auditiva y la memoria a largo plazo.
     
-    .row.justify-content-center.align-items-center.bg-color-2.bordes.px-4.mb-5
+    .row.justify-content-center.align-items-center.bg-color-2.bordes.p-4.py-lg-0.px-lg-4.mb-5
       .col-lg-12
         .row.justify-content-center.align-items-center
           .col-lg-10(data-aos="fade-left").mb-3.mb-lg-0
@@ -272,7 +272,7 @@
               h5 Atención espacial y percepción visual
               p La circunvolución angular contribuye a la orientación espacial y a la interpretación de estímulos visuales. Permite reconocer objetos, rostros y formas, facilitando la navegación en el entorno y la comprensión de la información visual.
     
-    .row.justify-content-center.align-items-center.bg-color-2.px-4.mb-5.bordes
+    .row.justify-content-center.align-items-center.bg-color-2.p-4.py-lg-0.px-lg-4.mb-5.bordes
       .col-lg-12
         .row.justify-content-center.align-items-center
           .col-lg-9(data-aos="fade-left").mb-3.mb-lg-0.order-lg-2
@@ -371,7 +371,7 @@
         .bg-color-11.p-5(data-aos="fade-left").text-white
           p.mb-0 Para Rodríguez (2017), la escritura involucra el funcionamiento conjunto y coordinado de diversas estructuras cerebrales asociadas al pensamiento, el lenguaje y la memoria. Este proceso requiere un alto grado de especialización y coordinación entre los hemisferios, ya que implica la integración de movimiento, tacto e ideas, lo cual es esencial para transferir nuestras ideas a un soporte físico. Por lo tanto, la escritura contribuye al desarrollo de la inteligencia.
 
-    .row.justify-content-center.align-items-center.bg-color-4.px-4.mb-5
+    .row.justify-content-center.align-items-center.bg-color-4.p-4.py-lg-0.px-lg-4.mb-5
       .col-lg-12
         .row.justify-content-center.align-items-center
           .col-lg-7(data-aos="fade-left").mb-3.mb-lg-0.order-lg-2
@@ -400,7 +400,7 @@
           p(numero="1" titulo="Lóbulo frontal") Es el encargado del razonamiento, la abstracción y la planificación de la disposición de las palabras en el soporte. Esta región del cerebro nos ayuda a estructurar nuestras ideas antes de escribirlas, permitiendo que el contenido tenga coherencia y fluidez.
           p(numero="2" titulo="Lóbulo temporal") Su función principal es la discriminación gráfico-fonológica, lo que significa que nos permite asociar cada sonido con su correspondiente representación escrita. Gracias a esta área, podemos transformar el lenguaje hablado en palabras escritas de manera precisa.
           p(numero="3" titulo="Lóbulo parietal") Facilita la coordinación óculo-manual, lo que es esencial para la escritura. Nos ayuda a controlar los movimientos de la mano y los dedos, asegurando que las letras y palabras sean trazadas correctamente en el papel o en una pantalla.
-          p(numero="2" titulo="Lóbulo occipital") Se encarga del reconocimiento de las diferentes letras escritas. Esta área nos permite identificar y diferenciar los caracteres, asegurando que podamos leer y escribir con claridad.
+          p(numero="4" titulo="Lóbulo occipital") Se encarga del reconocimiento de las diferentes letras escritas. Esta área nos permite identificar y diferenciar los caracteres, asegurando que podamos leer y escribir con claridad.
     
     p.mb-5 El sistema neuroescritural es un conjunto de procesos que involucran la activación y coordinación de estas áreas cerebrales. La escritura no solo depende de la motricidad fina, sino también de la integración de la percepción visual, el procesamiento del lenguaje y la planificación cognitiva (Rodríguez, 2017).
 
@@ -462,7 +462,7 @@
 
     .bg-full-width.bg-color-6
       .p-4.p-md-5
-        .row.justify-content-center.align-items-center.bg-color-8.bordes.px-4.mb-5
+        .row.justify-content-center.align-items-center.bg-color-8.bordes.p-4.py-lg-0.px-lg-4.mb-5
           .col-lg-12
             .row.justify-content-center.align-items-center
               .col-lg-9(data-aos="fade-left").mb-3.mb-lg-0
