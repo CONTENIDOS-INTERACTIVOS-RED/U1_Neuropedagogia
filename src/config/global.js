@@ -218,54 +218,54 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Aprendizaje',
+      termino: 'Afasia',
       significado:
-        'proceso mediante el cual una persona adquiere conocimientos, habilidades y experiencias a través de la educación y la interacción con su entorno.',
+        'Trastorno del lenguaje causado por daño cerebral, que afecta la capacidad de hablar, comprender, leer o escribir.',
     },
     {
-      termino: 'Cerebro',
+      termino: 'Afemia',
       significado:
-        'órgano principal del sistema nervioso encargado de procesar la información, regular funciones vitales y coordinar el pensamiento, las emociones y el movimiento.',
+        'Pérdida de la capacidad de hablar sin afectar la comprensión del lenguaje.',
     },
     {
-      termino: 'Creatividad',
+      termino: 'Agnosia',
       significado:
-        'habilidad para generar ideas nuevas, originales y útiles, vinculada a la actividad del cerebro derecho y al procesamiento intuitivo.',
+        'Incapacidad para reconocer objetos, sonidos o rostros, a pesar de tener los sentidos intactos.',
     },
     {
-      termino: 'Dominancia cerebral',
+      termino: 'Agrafia',
       significado:
-        'concepto que describe cómo ciertas áreas del cerebro tienen mayor influencia en la manera en que una persona piensa y actúa.',
+        'Dificultad o incapacidad para escribir debido a lesiones en áreas cerebrales responsables del lenguaje.',
     },
     {
-      termino: 'Educación',
+      termino: 'Alexia',
       significado:
-        'proceso de enseñanza y aprendizaje mediante el cual los individuos desarrollan habilidades, conocimientos y valores en distintos entornos.',
+        'Incapacidad para leer debido a lesiones en el cerebro, especialmente en el giro angular.',
     },
     {
-      termino: 'Estilo de aprendizaje',
+      termino: 'Apraxia',
       significado:
-        'preferencia individual en la manera de procesar la información, basada en los sistemas visual, auditivo y kinestésico',
+        'Dificultad para realizar movimientos coordinados, a pesar de tener la capacidad física para hacerlo.',
     },
     {
-      termino: 'Lóbulos cerebrales',
+      termino: 'Ataxia',
       significado:
-        'divisiones funcionales de la neocorteza que regulan diferentes aspectos del comportamiento humano, como el pensamiento, las emociones y la percepción sensorial.',
+        'Falta de coordinación en los movimientos, causada por daño en el cerebelo.',
     },
     {
-      termino: 'Neocorteza',
+      termino: 'Disfagia',
       significado:
-        'parte del cerebro encargada del razonamiento lógico, la planificación y la toma de decisiones, vinculada al cerebro izquierdo racional',
+        'Problemas para tragar alimentos o líquidos, a menudo asociados con daño neurológico.',
     },
     {
-      termino: 'Neuropedagogía',
+      termino: 'Disartria',
       significado:
-        'disciplina que estudia la relación entre el funcionamiento del cerebro y los procesos de aprendizaje, aplicando conocimientos de neurociencia en la educación',
+        'Alteración en la articulación del habla debido a problemas neuromusculares.',
     },
     {
-      termino: 'Neurona',
+      termino: 'Hemianopsia',
       significado:
-        'célula fundamental del sistema nervioso encargada de transmitir información a través de impulsos eléctricos y químicos. ',
+        'Pérdida de la mitad del campo visual en ambos ojos, causada por daño cerebral.',
     },
   ],
 }
